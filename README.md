@@ -21,6 +21,8 @@ In this project,
 - Data warehousing is implemented with Redshift and S3.
 - Automatically run the ETL pipeline controlled by [Apache Airflow](https://airflow.apache.org/)
 
+![Working DAG with correct task dependencies](https://github.com/kevinkevin556/Sparkify-Airflow/blob/master/image/example-dag.png?raw=true)
+
 ### Dimension Tables
 
 - users: users in the app.
