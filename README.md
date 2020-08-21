@@ -83,7 +83,16 @@ foo@bar:~$ airflow scheduler
 
 ### Set up AWS credentials and a Redshift cluster
 
-Feel free to use your own setting. If you are not sure about how to create AWS credentials or Redshift cluster, [this link](https://github.com/kevinkevin556/Sparkify-Redshift#start-an-redshift-cluster) may be helpful.If you are not familiar with the set-up procedures, you can follow the steps below to complete your configuration.
+Feel free to use your own setting.
+
+If you are not sure about how to create AWS credentials or Redshift cluster, [this link](https://github.com/kevinkevin556/Sparkify-Redshift#start-an-redshift-cluster) may be helpful.
+
+If you are not familiar with the set-up procedures, you can follow the steps below to complete your configuration.
+
+<details>
+<summary>
+<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Show details</a>
+</summary>
 
 1. Click on the **Admin** tab and select **Connections**.
 2. Under **Connections**, select **Create**.
@@ -105,6 +114,8 @@ Feel free to use your own setting. If you are not sure about how to create AWS c
     - Port: Enter `5439`.
 
     Once you've entered these values, select `Save`.
+
+</details>
 
 ### Run Dags
 
